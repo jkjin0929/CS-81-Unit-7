@@ -1,0 +1,23 @@
+// Joseph K. Jin
+// CS 81
+// Assignment 7
+// Chapter 5
+// Problem #27
+
+//27. Write a constructor for movie objects. A movie has a title, an MPAA rating, a list of
+//directors, a list of producers, a studio, and a release date.
+
+//Answer:
+
+//constructor for movie objects
+function movie() {
+	this.title = title;
+	this.mpaa_rating = mpaa_rating;
+	this.directors = directors;
+	this.producers = producers;
+	this.studio = studio;
+	this.release_date = release_date;
+}
+
+//an example for creating object using constructor above
+var harrypotter1 = new movie("Harry Potter and the Sorcerer's Stone", "PG", "Chris Columbus", "David Heyman", "Leavesden Film Studios", "November 16, 2001");

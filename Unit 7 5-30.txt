@@ -1,0 +1,19 @@
+//Joseph Jin
+//CS 81
+//Unit 7
+//Chapter 5
+//Problem #30
+
+30. JavaScript comes with a built-in object called Date, which is a constructor. Research
+this function and answer the following:
+
+(a) What does the expression new Date() produce?
+Answer: a new Date object with current date
+
+(b) What does the expression new Date( 2009,0,20) produce?
+Answer: Tue Jan 20 2009 00:00:00 GMT-0800 (Pacific Standard Time)
+	a new Date object with specified date(in this case year: 2009, month: 0(January), day: 20)
+
+(c) If d1 and d2 refer to date objects, what does the expression d1. valueOf() - d2.
+valueOf() produce?
+Answer: it will produce the difference of the primitive values between d1 and d2 date objects. According to W3Schools.com, the primitive value is returned as the number of millisecond since midnight January 1, 1970 UTC.

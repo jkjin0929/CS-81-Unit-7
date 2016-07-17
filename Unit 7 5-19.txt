@@ -1,0 +1,13 @@
+// Joseph K. Jin
+// CS 81
+// Assignment 7
+// Chapter 5
+// Problem #19
+
+19. Explain, in detail, what happens when you run this script;
+
+	alert("Hello");
+	var alert = 2;
+	alert("World");
+
+Answer: Hoisting is Javascript's default behavior of moving declarations to the top which allows variables to be used before they are declared. Script above has declaration in the middle(vaar alert = 2;) but because of hoisting, it is same as variable declared before alert("Hello"); and alert("World");. Since alert is declared as a variable, Javascript don't know what to do with alert() thus nothing happens when the script runs.

@@ -1,0 +1,16 @@
+//Joseph Jin
+//CS 81
+//Unit 7
+//Chapter 5
+//Problem #18
+
+18. Explain, in detail, what happens when this script is run:
+
+	var shout = function () {
+		var message = "HEY YOU";
+		alert(message);
+	};
+	shout();
+	alert(message);
+
+Answer: shout(); will call for function generate "HEY YOU" message while alert(message); won't(generates a message saying that message is not defined). It is because the variable message is defined within the function shout(local variable) therefore outside of that function, message is not defined.
